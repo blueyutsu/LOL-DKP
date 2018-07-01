@@ -8,10 +8,10 @@ opentext = open("DKPvars", "r")
 lossdict = ast.literal_eval(opentext.read())
 
 #A dictionary which will store the matchlist for each person using data from the RIOT API
-#dic={"taslst":[], "roblst":[], "hadlst":[], "marclst":[], "arsharlst":[], "lachielst":[]}
+dic={"taslst":[], "roblst":[], "hadlst":[], "marclst":[], "arsharlst":[], "lachielst":[]}
 
 #a dictionary with each person as items and their net DKP loss as values, (currently disabled as we're reading from a text file)
-lossdict={"tasloss":0, "hadloss":0, "robloss":0, "marcloss":0, "arsharloss":0, "lachieloss":0}
+#lossdict={"tasloss":0, "hadloss":0, "robloss":0, "marcloss":0, "arsharloss":0, "lachieloss":0}
 
 #This function returns the net DKP of a person given lst (the value assigned to the item "matches" from the riot api)
 #and optionally given dkploss (the amount of lost DKP due to bidding)
