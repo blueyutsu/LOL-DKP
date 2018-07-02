@@ -1,5 +1,7 @@
 # VERY Simple DKP
+#Created by Tasmand Daengdej and Robert Jiang
 
+My first project
 A dkp counter for bidding on roles in lol
 
 !!!!!!!!!!!!!!!
