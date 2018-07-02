@@ -24,11 +24,7 @@ def getdkp(lst, dkploss=0):
             break
     return ("DKP: " + str((count*50)-int(dkploss)))
 
-#This block of code auto generates all the URLs for accessing the match data from the Riot API
 key=input("Input api key:")
-names=[("Tas", 200075750, "taslst", "tasloss"), ("Rob", 200051491, "roblst", "robloss"), ("Hadleigh", 200892109, "hadlst", "hadloss"), ("Marc", 200864612, "marclst", "marcloss"), ("Arshar", 200307228, "arsharlst", "arsharloss"), ("Lachie", 200854432, "lachielst", "lachieloss")]
-for name in names:
-    print("{} match list: https://oc1.api.riotgames.com/lol/match/v3/matchlists/by-account/{}?api_key={}".format(str(name[0]), str(name[1]), str(key)))
 print(200*"-")
 print()
 
